@@ -34,7 +34,7 @@ This project is a **Streamlit web app** that predicts whether a customer is like
 ## 📦 Installation Guide
 ### 1. Clone the Repository
 ```
-git clone https://github.com/
+git clone https://github.com/sakshamsharma-code/Customer-Churn-Predictor.git
 ```
 ### 2. Install Dependencies
 ```
