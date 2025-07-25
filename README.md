@@ -31,33 +31,20 @@ This project is a **Streamlit web app** that predicts whether a customer is like
 
 ---
 
-## 📌 Requirements
-
-### Install dependencies using pip:
-
-```bash
+## 📦 Installation Guide
+### 1. Clone the Repository
+```
+git clone https://github.com/
+```
+### 2. Install Dependencies
+```
 pip install -r requirements.txt
 ```
-
----
-
-### Packages Required:
+### 3. Create a .env File
 ```
-streamlit
-scikit-learn
-pandas
-python-dotenv
-google-generativeai
+GEMINI_API_KEY=your_gemini_api_key
 ```
-
----
-
-## 🔐 Environment Setup
-Create a .env file with your Gemini API key:
-
-```env
-GEMINI_API_KEY=your_google_gemini_api_key_here
-```
+You can get a key from: Google AI Studio
 
 ---
 
@@ -80,8 +67,8 @@ The trained classifier outputs both a Yes/No churn prediction and a probability 
 ## 🧪 How to Run the App
 ```bash
 streamlit run app.py
-This will launch the app in your browser at http://localhost:your_port.
 ```
+This will launch the app in your browser at http://localhost:your_port.
 
 ---
 
